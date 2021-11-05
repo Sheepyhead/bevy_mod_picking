@@ -11,7 +11,7 @@ categories = ["game-engines", "rendering"]
 
 [dependencies]
 bevy = { git = "https://github.com/bevyengine/bevy" }
-bevy_mod_raycast = { path = "../bevy_mod_raycast" }
+bevy_mod_raycast = { git = "https://github.com/Sheepyhead/bevy_mod_raycast" }
 
 [dev-dependencies]
 bevy = { git = "https://github.com/bevyengine/bevy", features = [
